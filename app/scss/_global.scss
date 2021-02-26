@@ -1,0 +1,36 @@
+body{
+  @extend %gilroy-400;
+  font-size: 18px;
+  color:$default;
+  letter-spacing: 0.01em;
+} 
+.container{
+  max-width:1280px;
+  width:100%;
+  padding:0 40px;
+  margin: 0 auto;
+}
+.out-container{
+  max-width: 1440px;
+  width:100%;
+  margin: 0 auto;
+}
+.small-container{
+  max-width: 1120px;
+  padding:0 10px;
+  width:100%;
+  margin: 0 auto;
+}
+.title{
+  @extend %playfair-400;
+  letter-spacing: 0.01em;
+  line-height: 56px;
+  font-size: 40px;
+}
+.subtitle{
+  line-height: 26px;
+    letter-spacing: 0.54em;
+    color:$accent;
+    font-weight: 400;
+    text-transform: uppercase;
+}

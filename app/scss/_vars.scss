@@ -1,0 +1,65 @@
+// color
+$default:#fff;
+$accent:#FF9900;
+$bg:#FFB800;
+$black:#000;
+// end color
+
+// fonts
+%gilroy-300{
+  font-family: 'Gilroy';
+  font-weight: 300;
+}
+%gilroy-400{
+  font-family: 'Gilroy';
+  font-weight: 400;
+}
+%gilroy-500{
+  font-family: 'Gilroy';
+  font-weight: 500;
+}
+%gilroy-600{
+  font-family: 'Gilroy';
+  font-weight: 600;
+}
+%gilroy-700{
+  font-family: 'Gilroy';
+  font-weight: 700;
+}
+%playfair-400{
+  font-family: 'PlayfairDisplay';
+  font-weight: 400;
+}
+%playfair-500{
+  font-family: 'PlayfairDisplay';
+  font-weight: 500;
+}
+// end fonts
+
+// btn
+%btn{
+  padding:8px 15px;
+  border:2px solid $accent;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+// end btn
+
+// cursor
+%pointer{
+  cursor:pointer;
+}
+// end cursor
+
+// slider-button
+%reset{
+  border:none;
+  font-size: 1px;
+  line-height: 1px;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+// end slider-button
